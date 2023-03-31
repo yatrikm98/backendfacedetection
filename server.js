@@ -27,7 +27,7 @@ app.use(bodyParser.json())
 
 
 app.get('/',(req,res)=>{
-res.send(database.users)
+res.send("Hello")
 })
 app.post('/signin',(req,res)=>signin.handleSignin(req,res,db,bcrypt))
 app.post('/register',(req,res)=>register.handleRegister(req,res,db,bcrypt))
