@@ -12,9 +12,8 @@ const db =knex({
     client: 'pg',
     connection: {
       connectionString: 'postgres://postgresql_pgadmin_a7g9_user:Vwe52tRVD2FctkMvdD884Eg3pAsOr0nr@dpg-cgiqr4hr8t1g7lran5i0-a/postgresql_pgadmin_a7g9',
-    ssl: {rejectUnauthorized: false},
       host : 'dpg-cgiqr4hr8t1g7lran5i0-a.oregon-postgres.render.com',
-      port : 5432,
+        port : 5432,
       user : 'postgresql_pgadmin_a7g9_user',
       password : 'Vwe52tRVD2FctkMvdD884Eg3pAsOr0nr',
       database : 'postgresql_pgadmin_a7g9'
